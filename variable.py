@@ -49,3 +49,38 @@ print(d[-1])
 
 e = 'sadjflasjglirajglkl'
 print('str length >> '+str(len(e)))
+
+#문자열의 슬라이싱
+#val[x:y]
+a = "python is fun"
+print(a[0:6])
+
+print(a[6:])
+
+#val[x:y:z] z는 z-1개씩 건너뜀
+#ex : 2번째 이상 7번째 미만 문자열 중에 1개씩 건너뛰고 b에 담아 출력
+b = a[2:7:2]
+print(b)
+
+#연습문제(슬라이싱)
+#'20220505children's_day' 슬라이싱을 이용해 date 라는 변수에 날짜 day라는 변수에 children's_day를담아 각각 출력
+a = '20220505children\'s_day'
+date = a[0:8]
+day = a[8:]
+print(date)
+print(day)
+
+
+#https://brownbears.tistory.com/421
+#PYTHON 포멧팅
+
+#%s 문자열 %d 정수 등등 c++ 에서하듯이 %넣어서
+
+#str.format 도 있던데 이건 뒤에 f-string이있는데 굳이? 싶
+
+#f-string 이게 젤 편한듯 파이썬 버전 낮은거아님?
+
+a = 999
+b = 'sss'
+print(f"test case {a} and {b}")
+
