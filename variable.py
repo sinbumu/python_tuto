@@ -84,3 +84,38 @@ a = 999
 b = 'sss'
 print(f"test case {a} and {b}")
 
+# a = input('test str')
+# b = input('test num')
+# print(f'test code {a} and {b}') #위에 퍼센트사인(%) 쓰는 방식에선 문자열인지 정수인지 실수인지등 선언해야 하니 형이 일치해야 하고 이건그런거 없
+
+
+#practice
+# age = input('insert age')
+# weight = input('insert weight')
+# print(f'my age is {age}, and weight is {weight} kg')
+
+
+
+
+#str 관련 함수
+
+a = 'sivadoggy_gogogogo'
+print(a.count('g'))#count
+print(a.find('o'))#find first matched index *if not exist, return -1
+#upper , lower 대소문자
+#str.strip([chars]) 특정 문자 제거 (없으면 공백 제거)
+#replace() 문자열 대체
+
+#split([str]) 특정 문자열 기준으로 쪼겜(없으면 공백)  , 문자열.split(sep='구분자', maxsplit=분할횟수) 
+# - sep 파라미터
+# 해당 파라미터의 기본값은 none이며, 이때 동작은 띄어쓰기, 엔터를 구분자로 하여 문자열을 자릅니다. none일땐 빈문자열은 제거함
+ 
+
+#practice
+x = float(input('x값을 입력'))
+y=2.5*x**2+3.3*x+6
+print(y)
+
+
+
+
