@@ -112,10 +112,18 @@ print(a.find('o'))#find first matched index *if not exist, return -1
  
 
 #practice
-x = float(input('x값을 입력'))
-y=2.5*x**2+3.3*x+6
-print(y)
+# x = float(input('x값을 입력'))
+# y=2.5*x**2+3.3*x+6
+# print(y)
 
-
+#practice
+word1 = input('word1 : ')
+word2 = input('word2 : ')
+word3 = input('word3 : ')
+w1 = word1[0:1]
+w2 = word2[0:1]
+w3 = word3[0:1]
+print('==================')
+print(f'약자 : {w1+w2+w3}')
 
 
