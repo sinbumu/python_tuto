@@ -35,3 +35,19 @@ listA = [1,2,3,4,5,6,7,8,8,8,8,8,8]
 removedNum = 8
 list_removed = [i for i in listA if i != removedNum]
 print(list_removed)
+
+#위에 list선언할때 앞에 변수가딸린 포문이 들어가있는데, 이게 파이썬의 문법중 하난듯
+#https://redmuffler.tistory.com/452
+#리스트 컴프리헨선
+#[valueX for valueX in object [conditions...]] 이런식으로 리스트 생성
+
+
+#리스트의 원소들 갯수 새는 방법들 모음
+#https://jsikim1.tistory.com/218
+
+#리스트 insert append extend 등 설명
+#https://wikidocs.net/14#_9
+
+
+
+
