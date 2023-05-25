@@ -49,5 +49,7 @@ print(list_removed)
 #https://wikidocs.net/14#_9
 
 
+#문자 리스트를 문자열로, 문자열을 리스트로 만들기
+#split 등 사용 예 , join등 사용 예
 
-
+#list에 값 추가 (append insert extend 등)
