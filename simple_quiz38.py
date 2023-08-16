@@ -9,6 +9,7 @@
 arr1	arr2	return
 [[1,2],[2,3]]	[[3,4],[5,6]]	[[4,6],[7,9]]
 [[1],[2]]	[[3],[4]]	[[4],[6]]
+""" 
 def solution(arr1, arr2):
     answer = arr1
     for i in range(len(arr1)):
