@@ -24,3 +24,9 @@ print(f"{number}의 모든 자릿수의 합: {result}")
 
 
 #count() join()
+
+#find() index()
+
+#split()
+
+#format()
