@@ -43,3 +43,43 @@ print('----------')
 print(df.loc[[0,2]])
 print('----------')
 
+#이후엔 구글 코랩에서 작업했음
+'''
+from google.colab import files
+uploaded = files.upload()
+
+#pandas , matplotlib import 하기
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#csv 파일 읽어오기, 한글 데이터가 있으므로 encoding='cp949' 추가
+#이거 구글 드라이브에서 고치면서 utf된듯?
+df = pd.read_csv("seoul_tem.csv")
+
+print(df)
+
+#plot 그래프 그리기, 열추출방법 df["열이름"]
+plt.plot(df["평균기온(℃)"])
+plt.show()
+
+#히스토그램 그리기
+plt.hist(df["평균기온(℃)"], bins=10)
+plt.show()
+
+low_sum = df['평균최저기온(℃)'].sum()
+print(f'평균최저기온 sum : {low_sum}')
+
+#mean 평균
+#std 표준편차
+#median 중간값
+#min 최소값
+#amx 최대값
+
+#정렬
+
+#평균기온 오름차순 정렬
+print(df.sort_values(by='평균기온(℃)'))
+
+#평균기온 내림차순 정렬
+print(df.sort_values(by='평균기온(℃)',ascending=False))
+'''
